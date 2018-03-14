@@ -30,6 +30,6 @@ if you care ...
 
 ### Code
 
-This work is done in Mathematica, and codes can be found [here](quadrotor_SE3.nb)
+This work is done in Mathematica, and code can be found [here](quadrotor_SE3.nb)
 
 For more information, you can find me at my [portfolio page](https://yanweiw.github.io/).
