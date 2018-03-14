@@ -18,7 +18,7 @@ First, the dynamics looks good for the beginning as the quadrotor almost traces 
 
 ![sim](images/velocity_drift.png)![sim](images/integrater_drift.png)
 
-Second, since I plug the motion equations in SE(3) directly into the default NDSolve integrator, the numerical simulation will drift for integration of SE(3) group. However the default integrator over a short period of time still gives credible results as you can see in the above plot. Within 20 seconds, RR ! − I is kept around 10e-14.
+Second, since I plug the motion equations in SE(3) directly into the default NDSolve integrator, the numerical simulation will drift for integration of SE(3) group. However the default integrator over a short period of time still gives credible results as you can see in the above plot. Within 20 seconds, **RR<sup>T</sup> − I** is kept around 10e-14.
 
 In the future, I will upgrade the controller to maintain a constant orbiting velocity, which should give me better circular traces.
 
